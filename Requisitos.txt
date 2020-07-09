@@ -1,0 +1,87 @@
+Mostrar os beneficios	
+
+1 - Mostrar os meus serviços
+	- confiar em seu serviço
+
+1 - Comodidade para o cliente (aumentar os seus lucros)
+
+2 - Compra rapida
+
+3 - DIMINUIÇÃO DOS CUSTOS COM PANFLETAGEM (cliente por whatssap não precisa de panfleto)
+
+4 - exemplo PIZZARIA RAP10
+	- O que eles tem que as outros não tem ? 
+	- Barato
+	- promoção
+	- site (comodidade)
+
+
+FASE DE REQUISITOS
+
+1 - O que você quer que o site faça
+	- cliente tem em mente de algo que ele quer.
+
+
+2 - Pedidos por Whatssap
+ 	- pessoas Costume do whats
+	- não tem burocrácia de fazer cadastro
+	- rapido e fácil
+
+
+3 - Vai querer colocar todo o cardápio no site?
+	- pegar o cardápio
+
+
+4 - Quais são as pizzas mais pedidas ? 
+	- anotar aqui pizzas mais pedidas
+	
+	1 - 
+
+
+5 - Você faz algum tipo de promoção ?
+	- anotar as promoções
+	- falar da importância da promoção
+
+6 - Fotos da pizza
+	- tirar foto das pizzas mais compradas
+
+7 - horário de funcionamento e os dias que a pizzaria funciona
+	- 
+
+8 - telefones de contato e e-mail
+	
+
+9 - redes sociais
+	
+
+10 - Tem alguma coisa que não tem no cardápio ou alguma regra que voce quer qui coloca no site
+
+
+11 - promoção 1 mês dos meus serviços gratis
+
+
+12 - adquirir meu serviço por mês ou quando precisar é cobrado valor a por hora
+
+13 - colocar fotos do ambiente e bebidas
+
+14 - taxa de entrega acima de três 
+
+15 - mapear pedido do cliente
+
+
+Avisos de como funciona a hospedagem e o dominio para deixar o site no AR.
+
+Hostinger
+
+dominio 40 reais ao ano.
+
+hospedagem 150/por dois anos.
+
+
+
+
+
+
+
+
+
