@@ -15,6 +15,16 @@ html, body{
     clear: both;
 }
 
+.seta{
+    position: fixed;
+    top: 90%;
+    left: 96%;
+    opacity: .8;
+}
+.seta:hover{
+    opacity: 1;
+}
+
 header{
     width: 100%;
     padding-top: 80px;
@@ -283,7 +293,7 @@ main{
     width: 100%;
     max-width: 210px;
     margin: 0 auto;
-    font-size: 22px;
+    font-size: 18px;
     padding: 8px;
 }
 .elementos-cardapio1 p{
@@ -353,7 +363,7 @@ main{
 .elementos-cardapio2 h2{
     background-color: rgba(204, 204, 204, .8);
     font-weight: normal;
-    font-size: 22px;
+    font-size: 18px;
 }
 .elementos-cardapio2 h3{
     margin-top: 25px;
@@ -384,10 +394,14 @@ main{
 .elementos-cardapio3 h2{
     background-color: rgba(204, 204, 204, .8);
     font-weight: normal;
-    font-size: 22px;
+    font-size: 18px;
 }
 .elementos-cardapio3 h3{
     margin-top: 15px;
+}
+
+.elementos-cardapio3 p{
+    font-size: 14px;
 }
 
 .elementos-cardapio3 button{
@@ -399,6 +413,32 @@ main{
     cursor: pointer;
     font-size: 16px;
     margin-top: 15px;
+}
+
+.mini-salgados{
+    width: 100%;
+    margin-top: 20px;
+}
+
+.mini-salgados p{
+    font-weight: bold;
+}
+.mini-salgados button{
+    width: 100%;
+    max-width: 200px;
+    height: 35px;
+    background-color: #cccccc;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+
+.mini-salgados ul li{
+    display: inline-block;
+    margin-right: -4px;
+    background: linear-gradient(to right, rgba(234, 162, 51, .8), rgba(138, 89, 15, .8) );
+    border: 1px solid black;
+    padding: 20px;
 }
 /* Fim Galeria */ 
 .elementos-cardapio button{
@@ -506,7 +546,7 @@ main{
 
 footer{
     width: 100%;
-    height: 80px;
+    height: 100px;
     background-color: #808080;
     padding: 1% 2%;
     text-align: center;
@@ -515,7 +555,7 @@ footer{
 
 .rodape-redes-sociais p {
     display: inline-block;
-    padding-top: 15px;
+    padding-top: 5px;
 
 }
 .rodape-redes-sociais p img{
@@ -609,6 +649,10 @@ footer{
         margin-top: 0px;
         text-align: center;
     }
+    .elementos-cardapio3{
+        width: 100%;
+        height: 150px;
+    }
 
 }
 
@@ -626,7 +670,28 @@ footer{
     .button-galeria button{
         width: 100%;
         max-width: 200px;
+ 
         height: 50px;
+    }
+}
+
+@media screen and (max-width: 750px){
+    .elementos-cardapio2{
+        width: 50%;
+    }
+    .elementos-cardapio3 p{
+        font-size: 14px;
+    }
+    .elementos-cardapio3 button{
+        margin-top: 5px;
+    }
+    .seta{
+        position: fixed;
+        top: 90%;
+        left: 90%;
+        opacity: .8;
+    }
+
 }
 
 @media screen and (max-width: 490px){
@@ -660,6 +725,18 @@ footer{
     .elementos-cardapio1 h3{
         font-size: 16px;
     }
+    .elementos-acasa p{
+        font-size: 12px;
+    }
+    .escolher-cardapio ul li {
+        width: 33.3%;
+        font-size: 13px;
+
+    }
+    .elementos-cardapio2{
+        width: 100%;
+    }
+
 
 
 }
@@ -681,5 +758,8 @@ footer{
     .elementos-promocao img{
         width: 150px;
         height: 150px;
+    }
+    .elementos-promocao p {
+        font-size: 16px;
     }
 }

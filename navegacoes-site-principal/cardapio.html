@@ -3,16 +3,16 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <meta name="author" content="Thiago Macena">
-	<meta name="keywords" content="Palavra-chave, separadas, por , virgula.">
-    <meta name="description" content="Cópia tela login, fins academicos">
+    <title>Cardápio/ Pizzaria Manhani</title>
+    <meta name="author" content="Drinkss.dev">
+	<meta name="keywords" content="pizza, pizzaria manhani, pizzaria, manhani, telefone pizzaria manhani, localizacao pizzaria manhani">
+    <meta name="description" content="Pizzaria Manhani as melhores pizzas - Promoção pizzaria Manhani">
     <link rel="stylesheet" href="../css/style.css">
     <link href="https://fonts.googleapis.com/css2?family=Patua+One&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;1,400&display=swap" rel="stylesheet">
 </head>
-<body>
+<body id="seta">
 
     <header>
         <nav>
@@ -20,7 +20,7 @@
                 <li><a href="/index.html" title="Home">Home</a></li>
                 <li class="scroll-suave" style="background-color: #d08516;"><a title="Cardápio">Cardápio</a></li>
                 <li><a href="/index.html#promocao" title="Promoção">Promoção</a></li>
-                <li class="scroll-suave"><a href="" title="Galeria">Galeria</a></li>
+                <li><a href="/navegacoes-site-principal/galeria.html"title="Galeria">Galeria</a></li>
                 <li class="scroll-suave"><a href="#contato" title="Contato">Contato</a></li>
             </ul>
             <div class="clear"></div>
@@ -28,10 +28,10 @@
 
         <section class="mobile" style="background-image: url(/imagens/menu.png);">
             <ul>
-                <li class="scroll-suave"><a href="" title="Home">Home</a></li>
+                <li><a href="/index.html" title="Home">Home</a></li>
                 <li class="scroll-suave" style="background-color: #d08516;"><a href="#cardapio" title="Cardápio">Cardápio</a></li>
-                <li class="scroll-suave"><a href="#promocao" title="Promoção">Promoção</a></li>
-                <li class="scroll-suave"><a href="" title="Galeria">Galeria</a></li>
+                <li><a href="/index.html#promocao" title="Promoção">Promoção</a></li>
+                <li><a href="/navegacoes-site-principal/galeria.html" title="Galeria">Galeria</a></li>
                 <li class="scroll-suave"><a href="#contato" title="Contato">Contato</a></li>
 
             </ul>
@@ -44,8 +44,8 @@
 
         <section class="redes-sociais">
             <ul>
-                <li><a href="" target="_blank"><img src="/imagens/facebook.png" alt="facebook"  title="Facebook"></a></li>
-                <li><a href="" target="_blank"><img src="/imagens/instagram.png" alt="instagram" title="Instagram"></a></li>
+                <li><a href="https://www.facebook.com/pages/Pizzaria%20Manhani/629943990677357/" target="_blank"><img src="/imagens/facebook.png" alt="facebook"  title="Facebook"></a></li>
+                <li><a href="https://www.instagram.com/pizzariamanhani/" target="_blank"><img src="/imagens/instagram.png" alt="instagram" title="Instagram"></a></li>
             </ul>
         </section><!--redes-sociais-->
         <div class="clear"></div>
@@ -67,12 +67,13 @@
 
             <div class="whatsapp-delivery">
             <p>Peça pelo Whatsapp com mais comodidade</p>
-            <p><a href=""><img src="/imagens/whatsapp.png" alt="Peça pelo whatsapp" title="Peça pelo Whatsapp"></a></p>
+            <p><a href="https://wa.me/5511994202737" target="_blank"><img src="/imagens/whatsapp.png" alt="Peça pelo whatsapp" title="Peça pelo Whatsapp"></a></p>
          </div><!--whatsapp-delivery-->
          <div class="clear"></div>
 
         </div><!--sub-header-delivery-->
     </div><!--sub-header-->
+    <a href="#seta" class="seta" style="position: fixed;"><img src="/imagens/seta1.png" alt=""></a>
 
     <main style="background-image: url(/imagens/fundo.jpg);">
         <div id="cardapio" class="detalhe-cardapio">
@@ -83,16 +84,16 @@
 
         <div class="escolher-cardapio">
             <nav>
-                <ul>
-                    <a href=""><li>Pizzas salgadas</li></a>
-                    <a href=""><li>Pizzas Doces</li></a>
-                    <a href=""><li>Esfihas Salgadas</li></a>
-                    <a href=""><li>Esfihas Doces</li></a>
-                    <a href=""><li>Beirutes</li></a>
-                    <a href=""><li>Porções</li></a>
-                    <a href=""><li>Sobremesas</li></a>
-                    <a href=""><li>Mini-Salgados</li></a>
-                    <a href=""><li>Bebidas</li></a>
+                <ul class="scroll-suave a">
+                    <a href="#pizzas-salgadas"><li>Pizzas salgadas</li></a>
+                    <a href="#pizzas-doces"><li>Pizzas Doces</li></a>
+                    <a href="#esfihas-salgadas"><li>Esfihas Salgadas</li></a>
+                    <a href="#esfihas-doces"><li>Esfihas Doces</li></a>
+                    <a href="#beirutes"><li>Beirutes</li></a>
+                    <a href="#porcoes"><li>Porções</li></a>
+                    <a href="#sobremesas"><li>Sobremesas</li></a>
+                    <a href="#mini-salgados"><li>Mini-Salgados</li></a>
+                    <a href="#bebidas"><li>Bebidas</li></a>
 
                 </ul>
             </nav>
@@ -101,7 +102,7 @@
         <div class="cardapio">
             <div class="container-cardapio">
                 <div class="nome-salgados">
-                    <h1 style="border: 0;">Pizzas salgadas</h1>
+                    <h1 id="pizzas-salgadas">Pizzas salgadas</h1>
                 </div><!--elementos-cardapio-->
 
                 <div class="elementos-cardapio1">
@@ -511,7 +512,7 @@
             </div><!--elementos-carapio1-->
 
             <div class="elementos-cardapio1">
-                <h1><a style="font-weight: bold;">58</a> - Baiana II</h1>
+                <h1><a style="font-weight: bold;">58</a> - Provolone</h1>
                 <p>Provolone e tomate</p>
                 <h3>R$32,00</h3>
                 <div><button>Fazer pedido</button></div>
@@ -567,7 +568,7 @@
             </div><!--elementos-carapio1-->
 
             <div class="nome-salgados">
-                <h1 style="border: 0;">Pizzas Doces</h1>
+                <h1 id="pizzas-doces">Pizzas Doces</h1>
             </div><!--elementos-cardapio-->
 
             <div class="elementos-cardapio1">
@@ -595,7 +596,7 @@
                 <h1><a style="font-weight: bold;">69</a> - Romeu e julieta</h1>
                 <p>Mussarela com goiaba</p>
                 <h3>R$34,00</h3>
-                <div><button>Fazer pedido</button></div>
+                <div><button style="margin-top: 8px;">Fazer pedido</button></div>
             </div><!--elementos-carapio1-->
 
             <div class="elementos-cardapio1">
@@ -620,7 +621,7 @@
             </div><!--elementos-carapio1-->
 
             <div class="nome-salgados">
-                <h1 style="border: 0;">Esfihas Salgadas</h1>
+                <h1 id="esfihas-salgadas">Esfihas Salgadas</h1>
             </div><!--elementos-cardapio-->
 
             <div class="elementos-cardapio2">
@@ -696,7 +697,7 @@
             </div><!--elementos-carapio1-->
 
             <div class="nome-salgados">
-                <h1 style="border: 0;">Esfihas Doces</h1>
+                <h1 id="esfihas-doces">Esfihas Doces</h1>
             </div><!--elementos-cardapio-->
 
             <div class="elementos-cardapio2">
@@ -742,7 +743,7 @@
             </div><!--elementos-carapio1-->
 
             <div class="nome-salgados">
-                <h1 style="border: 0;">Beirutes</h1>
+                <h1 id="beirutes">Beirutes</h1>
             </div><!--nome-cardapio-->
 
             <div class="elementos-cardapio3">
@@ -802,7 +803,7 @@
             </div><!--elementos-carapio1-->
 
             <div class="nome-salgados">
-                <h1 style="border: 0;">Porções</h1>
+                <h1 id="porcoes">Porções</h1>
             </div><!--nome-cardapio-->
 
             <div class="elementos-cardapio2">
@@ -822,9 +823,27 @@
                 <h3>R$35,00</h3>
                 <div><button>Fazer pedido</button></div>
             </div><!--elementos-carapio1-->
+            
+            <div class="nome-salgados">
+                <h1 id="sobremesas">Mini-Salgados</h1>
+            </div><!--nome-cardapio-->
+
+            <div id="mini-salgados" class="mini-salgados">
+                <p>Copão R$ 5,00</p>
+                <p>Cento R$ 40,00</p>
+                <p>Encomendas p/ festas dois dias de antecedência</p>
+                <ul>
+                    <li>Coxinhas(Frango)</li>
+                    <li>Bolinhas(Queijo/ Calabresa/ Carne)</li>
+                    <li>Travesseirinho(Presunto com Quejos)</li>
+                    <li>Kibe assado</li>
+                    <li>Mini churros</li>
+                </ul>
+                <button>Fazer pedido</button>
+            </div><!--mini-slagados-->
 
             <div class="nome-salgados">
-                <h1 style="border: 0;">Sobremesas</h1>
+                <h1 id="sobremesas">Sobremesas</h1>
             </div><!--nome-cardapio-->
 
             <div class="elementos-cardapio2">
@@ -856,10 +875,43 @@
                 <h3>R$5,00</h3>
                 <div><button>Fazer pedido</button></div>
             </div><!--elementos-carapio1-->
+
+            <div class="nome-salgados">
+                <h1 id="Bebidas">Bebidas</h1>
+            </div><!--nome-cardapio-->
+
+            <div class="mini-salgados">
+                <ul>
+                    <li>Coca-cola</li>
+                    <li>Guaraná Atarctica</li>
+                    <li>Fanta</li>
+                    <li>Cervejas e suas variedades</li>
+                    <li>Sprite</li>
+                </ul>
+            </div><!--mini-slagados-->
             
             </div><!--container-cardapio-->
         </div><!--cardapio-->
     </main>
+
+    <footer id="contato" style="margin-top: 20px;">
+        <div  class="rodape-redes-sociais">
+            <div class="localiza">
+                <img src="/imagens/localizacao.png" alt="Localização Pizzaria Manhani" title="Localização Pizzaria Manhani">
+                <span>Av. Deputado Cantidio Sampaio, 5189 - Vila Souza, São Paulo - SP</span>
+            </div><!--localiza-->
+            <p><img src="/imagens/telefone.png" alt=""></p>
+            <p>3924-7414 / 3973-8306</p>
+            <a target="_blank" target="_blank" href="https://wa.me/5511994202737"><p style="padding-left: 30px;"><img src="/imagens/whatsapp2.png" alt="Whatsapp Pizzaria Manhani" title="Whatsapp Pizzaria Manhani"></p></a>
+            <a target="_blank" href="https://www.facebook.com/pages/Pizzaria%20Manhani/629943990677357/"><p style="padding-left: 15px;"><img src="/imagens/facebook2.png" alt="Facebook Pizzaria Manhani" title="Facebook Pizzaria Manhani"></p></a>
+            <a target="_blank" href="https://www.instagram.com/pizzariamanhani/"><p style="padding-left: 15px;"><img src="/imagens/instagram2.png" alt="Instagram Pizzaria Manhani" title="Instagram Pizzaria Manhani"></p></a>
+
+
+        </div><!--rodape-redes-sociais-->
+    </footer>
+    <div class="todos-direitos">
+        <p>(c) 2020 Manhani: <a title="Desenvolvedor" href="">Drinkss.Dev</a> </p>
+    </div><!--todos-direitos-->
 
     <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
     <script src="/js/function.js"></script>
