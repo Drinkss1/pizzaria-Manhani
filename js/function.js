@@ -1,24 +1,55 @@
 $(function(){
+    /* menu celular*/
     $(".mobile").click(function(){
+
         $(".mobile ul").slideToggle("slow");
     });
+    /* fim menu celular */
 
-    /*var intervalo = 3000;
+    /* função scroll suave */
+    $(".scroll-suave a").click(function(e){
 
-    function slider1(){
-        document.querySelector("#img1-slider-acasa").src = "imagens/ambiente1.png";
-        setTimeout(silder2(),  3000);
-    }
-    function slider2(){
-        document.querySelector("#img1-slider-acasa").src = "imagens/ambiente2.png";
-        setTimeout(silder3(),3000);
-    }
+		//estou dizendo que o meu menu de navegação vai cortar oq tem efeito
+		e.preventDefault();
 
+		//vou pegar a referencia do meu menu de navegação com o $ e depois pegar o atributo dele
+		var id = $(this).attr("href"),
+		//vou colocar o elemento que mede a distancia do nav aos conteudo (offset)
+			medirOtamanho = $(id).offset().top;
+			console.log(medirOtamanho);
 
-    function slider3(){
-        document.querySelector("#img1-slider-acasa").src = "imagens/ambiente10.png";
-        setTimeout("silder1()",3000);
-    }*/
-
-
+		//vou animar agora andando no meu html e body da pagina
+		$("body, html").animate({
+			//quero animar o scroll
+			scrollTop: medirOtamanho	
+		},800);
+    });
+    /*fim scroll suave */
+    
+    /* Função para animar quando clicar contato */
+    function animeContato(){
+		var aviso = $(".rodape-redes-sociais"),
+		animarAviso = "aviso-start";
+		$("#aviso").click(function(){
+			$(aviso).addClass(animarAviso);
+			//$(".aviso-start").fadeIn();
+			//$(aviso).removeClass(animarAviso);
+			setTimeout(function(){$(aviso).removeClass(animarAviso);},5000);
+		});	
+	};
+    animeContato();
+    
+    	//sidebar celular
+	function animeContato1(){
+		var aviso = $(".rodape-redes-sociais"),
+		animarAviso = "aviso-start";
+		$("#aviso1").click(function(){
+			$(aviso).addClass(animarAviso);
+			//$(".aviso-start").fadeIn();
+			//$(aviso).removeClass(animarAviso);
+			setTimeout(function(){$(aviso).removeClass(animarAviso);},5000);
+		});	
+	};
+    animeContato1();
+    /*fim função animar quando clica*/
 });
