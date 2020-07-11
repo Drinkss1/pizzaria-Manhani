@@ -4,7 +4,8 @@ $(function(){
 
         $(".mobile ul").slideToggle("slow");
     });
-    /* fim menu celular */
+	/* fim menu celular */
+
 
     /* função scroll suave */
     $(".scroll-suave a").click(function(e){
