@@ -444,6 +444,7 @@ main{
 .filtro{
     position: absolute;
     right: 0;
+    padding: 0 2%;
 }
 
 .filtro input{
