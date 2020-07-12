@@ -73,5 +73,24 @@ $(function(){
 		});	
 	};
     animeContato1();
-    /*fim função animar quando clica*/
+	/*fim função animar quando clica*/
+	
+	$(function(){
+		    $("#textColuna").keyup(function(){        
+		        var index = $(this).parent().index();
+		        var nth = ".pesquisa:nth-child("+(index+1).toString()+")";
+		        var valor = $(this).val().toUpperCase();
+		        $(".elementos-cardapio1").show();
+		        $(nth).each(function(){
+		            if($(this).text().toUpperCase().indexOf(valor) < 0){
+		                $(this).parent().hide();
+		            }
+		        });
+		    });
+		 
+		    $("#textColuna").blur(function(){
+		        $(this).val("");
+		    }); 
+		});
+
 });
