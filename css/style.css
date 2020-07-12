@@ -705,6 +705,11 @@ footer{
         left: 90%;
         opacity: .8;
     }
+    .filtro{
+        position: static;
+        text-align: center;
+        margin-top: 30px;
+    }
 
 }
 
