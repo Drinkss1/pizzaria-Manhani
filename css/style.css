@@ -562,7 +562,7 @@ footer{
     width: 100%;
     height: 100px;
     background-color: #808080;
-    padding: 1% 2%;
+    padding: 0px 2%;
     text-align: center;
     vertical-align: middle;
 }
@@ -755,9 +755,6 @@ footer{
     .elementos-cardapio2{
         width: 100%;
     }
-
-
-
 }
 
 @media screen and (max-width: 1100px){
